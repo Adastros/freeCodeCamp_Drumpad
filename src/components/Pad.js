@@ -4,9 +4,8 @@ export default class Pad extends React.Component {
   constructor(props) {
     super(props);
     this.onClickHandler = this.onClickHandler.bind(this);
-    //this.onKeyDownHandler = this.onKeyDownHandler.bind(this);
   }
-  // allows user to spam drum key without waiting for audio to finish playing
+  // Allows user to spam drum key without waiting for audio to finish playing
   onClickHandler() {
     //If powerStatus = false -> drum machine is off; dont play audio
     this.props.playSound(this.props.audioElement.padLabel,this.props.audioElement.id);

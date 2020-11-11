@@ -1,3 +1,9 @@
+/*
+  Closed-HH does not play properly in Firefox, possibly in other non-chromium browsers. 
+  This is due to the audio file being < 1 second long. Audio file was borrowed from
+  freeCodeCamp example project.
+*/
+
 export let audioBanks = {
   heaterBank: [
     {

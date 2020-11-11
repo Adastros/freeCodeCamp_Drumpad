@@ -51,8 +51,7 @@ button {
 
 .center-element {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
 }
 
 .right-align-element {
@@ -82,16 +81,16 @@ button {
  width: 90%;
 }
 
-//TODO: Add media queries for different viewport sizes
+// Margin auto fixes overflow; Allows scrolling on smaller viewports
 .drum-machine {
   height: 500px;
   width: 400px;
+  margin: auto;
   border: 3px solid $Jet;
   border-radius: 5%;
   background-color: $Jet;
 }
 
-// TODO: Adjust height and width for different viewports
 .action-display {
   display: flex;
   align-items: center;
@@ -103,12 +102,10 @@ button {
   border-radius: 2%;
 }
 
-// TODO: Adjust height and width for different viewports
 .power-button {
   height: 35px;
   width: 35px;
   border-radius: 10%;
-  //filter: brightness(0.3);
 }
 
 .volume-img {

@@ -1,0 +1,90 @@
+Audio Related:
+
+https://source.opennews.org/articles/audio-browser/
+
+https://stackoverflow.com/questions/39179834/difference-between-video-src-video-and-video-source-source-vide
+
+https://elements.envato.com/sound-effects
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio
+
+https://stackoverflow.com/questions/8489710/play-an-audio-file-using-jquery-when-a-button-is-clicked
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+https://stackoverflow.com/questions/32392072/how-to-play-google-drive-mp3-file-using-html-audio-tag
+
+Event Listeners:
+
+https://www.quirksmode.org/js/events_order.html#link4
+
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null
+
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
+https://www.oreilly.com/library/view/javascript-dhtml/9780596514082/apb.html
+
+Current way to pass data among components:
+
+https://reactjs.org/docs/context.htmlhttps://reactjs.org/docs/context.html
+
+Import/Export: 
+
+https://javascript.info/import-export#import
+
+JSON vs Array of objects:
+
+https://stackoverflow.com/questions/31469441/array-of-objects-vs-object-of-objects
+
+Arrays:
+
+https://stackoverflow.com/questions/966225/how-can-i-create-a-two-dimensional-array-in-javascript
+
+https://stackoverflow.com/questions/10673237/uncaught-typeerror-cannot-set-property-0-of-undefined
+
+https://stackoverflow.com/questions/11345954/push-a-two-dimensional-array
+
+https://stackoverflow.com/questions/24841476/cannot-read-property-push-of-undefined-when-combining-arrays
+
+https://www.javascripttutorial.net/javascript-multidimensional-array/
+
+https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays
+
+Objects:
+
+https://dmitripavlutin.com/how-to-compare-objects-in-javascript/
+
+Viewports:
+
+https://stackoverflow.com/questions/4917664/detect-viewport-orientation-if-orientation-is-portrait-display-alert-message-ad
+
+React:
+
+https://stackoverflow.com/questions/33766085/how-to-avoid-extra-wrapping-div-in-react
+
+Input Range (Sliders):
+
+https://stackoverflow.com/questions/36122034/jsx-react-html5-input-slider-doesnt-work
+
+https://reactjs.org/docs/uncontrolled-components.html#default-values
+
+https://css-tricks.com/sliding-nightmare-understanding-range-input/
+
+CSS Tricks:
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/filter  (Used to darken/brighten power button)
+
+Standard Functions:
+
+https://stackoverflow.com/questions/31974582/difference-between-document-getelementbyid-and-document-getelementsbyclassname
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+
+

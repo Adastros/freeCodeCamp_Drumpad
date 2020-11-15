@@ -73,8 +73,7 @@ export default class DrumMachine extends React.Component {
     this.state.audioBank.forEach((audioObj) => {
       let audioFile = document.getElementById(audioObj.padLabel);
       audioFile.pause();
-      //audioFile.currentTime = 0;
-      audioFile.src = audioFile.src;
+      audioFile.currentTime = 0;
     });
   }
   // Adjusts volume for all drumpad audio and displays volume percentage.

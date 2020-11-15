@@ -51,7 +51,8 @@ button {
 
 .center-element {
   display: flex;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .right-align-element {
@@ -76,7 +77,7 @@ button {
   border: 1px solid red;
 }
 
-.drumpad {
+.drum-pad {
  height: 90%;
  width: 90%;
 }

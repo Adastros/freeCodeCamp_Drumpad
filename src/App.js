@@ -4,6 +4,6 @@ import './styles.scss';
 
 export default function App() {
   return (
-    <DrumMachine id='drum-machine' />
+    <DrumMachine />
   );
 }

@@ -13,17 +13,18 @@ export default class Pad extends React.Component {
   render() {
     return(
       <button 
+        id={this.props.audioElement.id}
+        className='drum-pad'
         type='button' 
         onClick={this.onClickHandler}
-        className='drumpad'
         disabled={this.props.powerStatus}
       >
         {this.props.audioElement.padLabel}
-        <audio id={this.props.audioElement.padLabel} className='clip'>
-          <source 
-            src={this.props.audioElement.audioFile}
-            type='audio/mpeg'
-          />
+        <audio 
+          id={this.props.audioElement.padLabel} 
+          className='clip' 
+          src={this.props.audioElement.audioFile}
+        >
         </audio>
       </button>
     );

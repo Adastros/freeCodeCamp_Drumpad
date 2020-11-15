@@ -10,8 +10,7 @@ export default function DrumPads(props) {
     return (
       <Col key={audioElement.id + 'Col'} className='h-100 center-element'>
         <Pad
-          id={audioElement.id}
-          key={audioElement.id}
+          key={audioElement.id + 'Pad'}
           audioElement={audioElement}
           playSound={props.playSound}
           powerStatus={props.powerStatus}

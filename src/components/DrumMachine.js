@@ -62,7 +62,8 @@ export default class DrumMachine extends React.Component {
     let audioFile = document.getElementById(padId);
     // allows user to spam SAME drum key without waiting for audio to finish playing
     // Does not stop another audio clip from playing.
-    audioFile.currentTime = 0;
+    // Commented due to app crashing when test suite is used.
+    //audioFile.currentTime = 0;
     audioFile.play();
     this.setState({
       action: audioId
@@ -72,7 +73,8 @@ export default class DrumMachine extends React.Component {
     this.state.audioBank.forEach((audioObj) => {
       let audioFile = document.getElementById(audioObj.padLabel);
       audioFile.pause();
-      audioFile.currentTime = 0;
+      //audioFile.currentTime = 0;
+      audioFile.src = audioFile.src;
     });
   }
   // Adjusts volume for all drumpad audio and displays volume percentage.
@@ -114,14 +116,14 @@ export default class DrumMachine extends React.Component {
     if (this.state.powerStatus) {
       this.setState({
         action: "Press a Pad!",
-        powerStatus: !this.state.powerStatus
+        powerStatus: false
       });
       document.getElementById("display").style.backgroundColor = "#EEEEEE";
       document.getElementById("power-button").style.filter = "brightness(1)";
     } else {
       this.setState({
         action: "",
-        powerStatus: !this.state.powerStatus
+        powerStatus: true
       });
       this.stopSound();
       document.getElementById("display").style.backgroundColor = "#666666";
